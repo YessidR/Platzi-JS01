@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentajes y descuentos | Curos Práctico de JS PLATZI</title>
+</head>
+
+<body>
+    <header>
+        <h1>Porcentajes y descuentos</h1>
+        <p>Segundo taller del curso práctico de JS (PLATZI)</p>
+    </header>
+
+    <section>
+        <h2>Calcula el precio a pagar de tus productos con descuento</h2>
+
+        <form>
+            
+            <label for="InputPrice">Escribe el precio del producto</label>
+            <input id="InputPrice" type="number">
+            
+            <label for="InputDiscount">Escribe el valor del descuento</label>
+            <input id="InputDiscount" type="number">
+            
+            <button type="button" onClick="buttonPriceDiscount()">
+                Calcula el precio con descuento
+            </button>
+
+            <p id="ResultP"></p>
+
+
+        </form>
+    </section>
+    <br><br><br>
+
+    <section>
+        <h2>Ingresa el cupón de descuento...</h2>
+
+        <form>
+            
+            <label for="InputPrice">Escribe el precio del producto:</label>
+            <input id="InputPrice" type="number">
+            
+            <label for="InputCoupon">Escribe el código del cupón:</label>
+            <input id="InputCoupon" type="text">
+
+            <label for="InputDiscount">Valor del descuento</label>
+            <input id="InputDiscount" type="text" readonly=»readonly»>
+
+            
+            <button type="button" onClick="buttonPriceDiscount()">
+                Calcula el precio con descuento
+            </button>
+
+            <p id="ResultP"></p>
+
+
+        </form>
+    </section>
+
+
+
+    <script></script>
+    <script src="./02 descuentos.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras geométricas | Curos Práctico de JS PLATZI</title>
+</head>
+<body>
+    <header>
+        <h1> Figuras geométricas </h1>
+        <p>Primer taller del curso práctico de JS (PLATZI)</p>
+    </header>
+
+    <section>
+        <h2> Calcula el área y perímetro de un cuadrado</h2>
+        <form>
+            <label for="InputCuadrado">
+                Indica cuánto mide cada lado de tu cuadrado:
+            </label>
+
+            <input id="InputCuadrado" type="number">
+            
+            <button type="button" onclick="calcularPerimetroCuadrado()">
+                Calcular perímetro
+            </button>
+            
+            <button type="button" onclick="calcularAreaCuadrado()">
+                Calcular el área
+            </button>
+            
+        </form>
+
+    </section>
+    <br>
+    <section>
+        <h2> ¿Es un triángulo Isósceles? </h2>
+        <form>
+            <form>
+                <label for="InputLado1">
+                    Indica la longitud del lado1 :
+                </label>
+
+                <input id="InputLado1" type="number">
+            </form>
+
+            <form>
+                <label for="InputLado2">
+                    Indica la longitud del lado2 :
+                </label>
+
+                <input id="InputLado2" type="number">
+            </form>
+
+            <form>
+                <label for="InputLado3">
+                    Indica la longitud de la base:
+                </label>
+
+                <input id="InputLado3" type="number">
+            </form>
+            
+            <button type="button" onclick="trianguloIsosceles()">
+                Calcular altura 
+            </button>
+            
+        </form>
+
+    </section>
+
+
+<script src="./01 figuras.js"></script>
+</body>
+</html>
